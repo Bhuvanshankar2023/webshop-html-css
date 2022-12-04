@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-size: 62.5%; */
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    /* justify-items: flex-end; */
+    align-items: center;
+    /* width: 100vw; */
+}
+ul li{
+    flex-grow: 1;
+}
+.inpu{
+    display: flex;
+    flex-grow: 1;
+}
+li input{
+    width: 30rem;
+}
+.but{
+    background-color: bisque;
+    border-radius: 2px;
+    border: none;
+}
+li:hover{
+    cursor: pointer;
+
+}
+a {
+     color: inherit; 
+     text-decoration: none;
+    } 
+.hero{
+    width: 100%;
+    /* height: 50%; */
+}
+.images{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+
+}
+.image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* text-align: center; */
+    text-align: center;
+}
+.img1{
+    border: 1px solid black;
+    display: flex ;
+    flex-direction: column;
+    grid-area: img1;
+    /* width: 41%; */
+}
+.img1 .para{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+
+}
+.img1 .price{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+    
+}
+.img1 .butt{
+    background-color: gold;
+    border: 2px solid gray;
+    
+}
+.img2{
+    border: 1px solid black;
+    display: flex ;
+    flex-direction: column;
+   grid-area: img2;
+    /* width: 41%; */
+
+}
+.img2 .para{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+
+}
+.img2 .price{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+    
+}
+.img2 .butt{
+    background-color: gold;
+    border: 2px solid gray;
+    
+}.img3{
+    border: 1px solid black;
+    display: flex ;
+    flex-direction: column;
+    grid-area: img3;
+    /* width: 41%; */
+
+}
+.img3 .para{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+
+}
+.img3 .price{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+    
+}
+.img3 .butt{
+    background-color: gold;
+    border: 2px solid gray;
+    
+}.img4{
+    border: 1px solid black;
+    display: flex ;
+    flex-direction: column;
+    grid-area: img4;
+    /* width: 41%; */
+
+}
+.img4 .para{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+
+}
+.img4 .price{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+    
+}
+.img4 .butt{
+    background-color: gold;
+    border: 2px solid gray;
+    
+}.img5{
+    border: 1px solid black;
+    display: flex ;
+    flex-direction: column;
+grid-area: img5;
+
+}
+.img5 .para{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+
+}
+.img5 .price{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+    
+}
+.img5 .butt{
+    background-color: gold;
+    border: 2px solid gray;
+    
+}.img6
+{
+    border: 1px solid black;
+    display: flex ;
+    flex-direction: column;
+grid-area: img6;
+
+}
+.img6 .para{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+
+}
+.img6 .price{
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+    
+}
+.img6 .butt{
+    background-color: gold;
+    border: 2px solid gray;
+    
+}
+/* .gird{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+} */
+/* .gird{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 10px;
+} */
+.gird{
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas: 'img1 img2 img3'
+                            'img4 img5 img6';
+
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.foot{
+    height: 50px;
+    background-color: blanchedalmond;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px){
+    ul{
+        display: block;
+        text-align: center;
+
+    }
+    ul input{
+    }
+    .images{
+     height: auto;
+     width: 100%;   
+    }
+    .gird{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
